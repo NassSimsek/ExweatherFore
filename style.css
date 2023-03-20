@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+
+* {
+    font-family: 'Akaya Telivigala', cursive;
+    ;
+}
+
+
+
+.currentTemp {
+    /*  position:relative; // sen bunu flex ile çözdün
+    top:50px;
+    left: 150px;;*/
+    font-size: 15rem;
+
+}
+
+
+body {
+    background-color: rgb(250, 225, 221);
+}
+
+
+
+#tab1 {
+    background-color: rgb(236, 228, 219);
+}
+
+#description {
+    background-color: rgb(252, 213, 206);
+}
+
+/*#container1{
+    margin-bottom: 100px;;
+}
+*/
+
+#btn-chan-day-pre {
+    background-color: rgb(254, 200, 154);
+    border: none;
+    padding: 14px 40px;
+    color: rgb(99, 9, 99);
+    width: 200px;
+    cursor: pointer;
+
+
+}
+
+#btn-chan-day-pre:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgb(255, 149, 5);
+}
+
+
+
+#btn-chan-day-next {
+    background-color: rgb(254, 200, 154);
+    border: none;
+    padding: 14px 40px;
+    color: rgb(99, 9, 99);
+    width: 200px;
+    cursor: pointer;
+
+
+}
+
+#btn-chan-day-next:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgb(255, 149, 5);
+}
+

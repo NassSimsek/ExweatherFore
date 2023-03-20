@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Forecast</title>
+</head>
+
+<body style="height:100vh">
+
+    <nav style="background-color:rgb(255, 215, 186);">
+        <div style="text-align: center;">
+            <h2>Weather forecast</h1>
+        </div>
+    </nav>
+
+
+    <div id="container1" class="container p-0 my-5" style="background-color: antiquewhite; height: 35vh">
+
+        <div class="d-flex flex-row ">
+            <div id="description" class="text-left" style="flex:1 1 50%">
+                Description gelecek
+            </div>
+            <div id="bar" class=" flex" style="flex:1 1 50%">
+                <input type="text" class="form-control" list="list" placeholder="Choose the Location">
+                <div>
+                    <datalist class="dtlist" id="list"></datalist>
+                </div>
+                
+
+            </div>
+        </div>
+
+        <div id="tab1" class="d-flex align-items-stretch" style="height:93% ">
+            <div class="d-flex flex-row " style="width: 100%;">
+                <div class="d-flex justify-content-center align-items-center part-right bg-danger "  style="flex:1 1 50% ;">
+                    <span id="currentTemp" class="currentTemp"></span><span class="currentTemp ">°C</span>
+                </div>
+                <div class="d-flex justify-content-center align-items-center flex-column part-left" style="flex:1 1 50% ; font-size: 20px;">
+                    <div class="loc-date"></div> 
+                    <div class="feelsTemp"> </div>
+                    <div class="rain">yağmur</div>
+                    <div class="humi">nem</div>
+                    <div class="wind">rüzgar</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="d-flex align-items-center justify-content-center">
+        <button type="button" id="btn-chan-day-pre" class="btn btn-lg  btn-success bi bi-chevron-left ">previous</button>
+        <button type="button" id="btn-chan-day-next" class="btn btn-lg  btn-success ">next<i
+                class="bi bi-chevron-right"></i></button>
+    </div>
+
+
+
+    <div id="container2" class="container p-0 my-5" style="background-color:rgb(216, 226, 220); height: 35vh;">
+        <div class=" d-flex table-responsive flex-wrap" style="height:100%; text-align: center;">
+
+        </div>
+
+    </div>
+    <script src="countryandstate.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+
+<!--
+    <div class="row bg-success align-items-center"  style="height:25% ;">
+            <div class="col">
+                <div class="header">Header</div>
+                <div class="value" >Value</div>
+            </div>
+            <div class="col">2</div>
+            <div class="col">3</div>
+            <div class="col">4</div>
+            <div class="col">5</div>
+            <div class="col">6</div>
+            <div class="col">7</div>
+            </div>
+            <div class="row bg-info align-items-center" style="height:25% ; ">
+                <div class="col">8</div>
+                <div class="col">9</div>
+                <div class="col">10</div>
+                <div class="col">11</div>
+                <div class="col">12</div>
+                <div class="col">13</div>
+                <div class="col">14</div>
+            </div>
+            <div class="row bg-danger align-items-center" style="height:25% ; ">
+                <div class="col">15</div>
+                <div class="col">16</div>
+                <div class="col">17</div>
+                <div class="col">18</div>
+                <div class="col">19</div>
+                <div class="col">20</div>
+                <div class="col">21</div>
+            </div>
+            <div class="row bg-warning align-items-center" style="height:25% ; ">
+                  <div class="col">22</div>
+            </div>
+-->
+
+
+
+
+
+
+
+
+
+
+
+<!--
+<table class="table table-hover" style="width:100% ">
+    <tr >
+     <td >1</td>
+     <td >2</td>
+     <td >3</td>
+     <td >4</td>
+     <td >5</td>
+     <td >6</td>
+     <td >7</td>
+    </tr>
+    <tr>
+     <td>8</td>
+     <td>9</td>
+     <td>10</td>
+     <td>11</td>
+     <td>12</td>
+     <td>13</td>
+     <td>14</td>
+    </tr>
+    <tr>
+     <td>15</td>
+     <td>16</td>
+     <td>17</td>
+     <td>18</td>
+     <td>19</td>
+     <td>20</td>
+     <td>21</td>
+    </tr>
+    <tr >
+     <td >22</td>
+    </tr>
+ </table>
+
+-->
